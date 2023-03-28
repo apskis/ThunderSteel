@@ -17,7 +17,7 @@ Possible responsive design concepts to demonstrate:
 * Using a @media rule to change page layout and behavior based on size breakpoints.
 * Employing responsive units em and rem to size and space elements with width and padding.
 
-#Wireframe
+# Wireframe
 ![ThunderSteel_mobile](https://user-images.githubusercontent.com/30397168/228339588-954d46ca-fc7a-4755-8912-192874553a83.png)
 
 # Mobile 320px
