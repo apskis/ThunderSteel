@@ -1,0 +1,361 @@
+/* ========== Global =========== */
+* {
+  color: #EEEEEE;
+  background-color: #00092C;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+}
+/* =========== Base ========== */
+html {
+   font-size: 16px;
+}
+body {
+    display: block;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+}
+section h1, h2, h3, h4 {
+    padding: 10px 10px;
+}
+footer p {
+    font-size: 1rem;
+}
+
+/* =========== Header ===========*/
+
+/* ========== Nav ============= */
+.nav_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    height: 100%;
+    border-bottom: 1px solid #EEEEEE;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-menu a{
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-decoration: underline overline #B20600;
+    background-color:transparent;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    top: 40%;
+}
+.nav-logo img {
+    margin: 10px 0;
+    margin-left: 10px;
+    padding: 0px;
+    height: 90px;
+}
+
+/* ============= Main ============ */
+.banner {
+    background-image: url(../images/rider03.jpg);
+    min-height: 500px;
+    padding: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+/* ============= Sections =========== */
+section {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+section h1, h2, h3 {
+    background:transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+section h1 {
+    font-family: 'Lobster', cursive;
+}
+section h2, h4, p {
+    background:transparent;
+}
+
+/* About */
+.title_container {
+    min-height: 100px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.title_container h1, h3 {
+    padding: 15px 15px;
+}
+.title_container h3, .contact_container h2  {
+    font-family: 'Condiment', cursive;
+}
+.about_container, .gallery_container, #gallery_area, .pic, #show_more {
+    background-color: #FF5F00;
+}
+.about_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100px;
+    padding-bottom: 15px;
+} 
+
+
+.about_container p {
+    margin: 0 auto;
+}
+
+/* Events */
+.event_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.event, #event_area, .title_container, #contact_area, .contact_container, .contact {
+    background-color: #00092C;
+}
+.event {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Gallery */
+.gallery_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #EEEEEE;
+    width: 400px;
+    min-height: 400px;
+    margin: 10px;
+}
+#pic1 {
+    background-image: url(../images/rider11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#pic2 {
+    background-image: url(../images/rider10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#pic3 {
+    background-image: url(../images/rider06.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#pic4 {
+    background-image: url(../images/rider05.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Contact */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact_area p {
+    text-align: center;
+}
+.contact h2 {
+    padding-bottom: 0px;
+}
+.icon {
+    width: 30px;
+    padding: 0px;
+    margin: 15px;
+
+}
+.icons{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+#show_more a {
+    background:transparent;
+}
+/* ============ Footer ============== */
+footer {
+    border: 1px solid #EEEEEE;
+    background-color: #B20600;
+    text-align: right;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+footer p {
+  background: transparent;
+
+}
+
+/* ============ Media Queries ============== */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* ========== Nav ============= */
+    .nav-menu {
+        display:none;
+    }
+    .burgermenu img {
+        height: 30px;
+        margin: 10px 0;
+        margin-right: 10px;
+        padding: 0px;
+        display: flex;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+     .banner {
+        min-height: 300px;
+    }
+    .burgermenu img {
+        display: none;
+    }
+    .event { 
+        width: 400px;
+        min-height: 400px;
+    }
+    .banner {
+        min-height: 600px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .banner {
+        min-height: 400px;
+        background-size: 100%;
+    }
+    #pic1 {
+        flex-basis: 400px;
+        flex-grow: 2;
+    }
+    #pic2 {
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+    #pic3 {
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+    #pic4 {
+        flex-basis: 400px;
+        flex-grow: 2;
+    }
+    .about_container p {
+        min-width: 400px;
+        min-height: auto;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.8rem;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    section h1, h2, h3, h4 {
+        padding: 20px 20px;
+    }
+    footer p {
+        font-size: 1.3rem;
+    }
+    .nav-logo img {
+        height: 125px;
+    }
+    .event { 
+        width: 700px;
+        min-height: 400px;
+    }
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .banner {
+        min-height: 400px;
+        background-size: 120%;
+    }
+    .nav-logo img {
+        height: 145px;
+    }
+    .about_container p {
+        width: 900px;
+    }
+    .event { 
+        width: 600px;
+        min-height: 400px;
+    }
+    .nav-menu a {
+        font-size: 2rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    .banner {
+        min-height: 600px;
+         background-size: 100%;
+    }
+    .nav-menu a {
+        font-size: 3rem;
+    }
+    .nav-logo img {
+        height: 225px;
+    }
+    .event { 
+        width: 500px;
+        min-height: 400px;
+    }
+}
