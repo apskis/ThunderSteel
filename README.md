@@ -1,2 +1,2 @@
-# ThunderSteel
- A Women's Motorcycle Club - a sisterhood of riders
+# Thunder Steel - A Women's Motorcycle Club
+A Sisterhood of Riders
