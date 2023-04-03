@@ -20,6 +20,9 @@ Possible responsive design concepts to demonstrate:
 # Wireframe
 ![ThunderSteel_mobile](https://user-images.githubusercontent.com/30397168/228339588-954d46ca-fc7a-4755-8912-192874553a83.png)
 
+# Color Palettes
+![colors](https://user-images.githubusercontent.com/30397168/229565766-1e6b049b-0aa4-4318-b773-8745654c0348.png)
+
 # Mobile 320px
 ![mobile-320px](https://user-images.githubusercontent.com/30397168/228339223-e664d210-062e-45bb-9a6a-79f8b416f33b.png)
 ![mobile-320px-01](https://user-images.githubusercontent.com/30397168/228339233-9b2629ba-f6c6-4bc4-a231-f30a71e6fc2b.png)
